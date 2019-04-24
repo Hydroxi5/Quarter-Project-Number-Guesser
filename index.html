@@ -8,7 +8,7 @@
   </head>
 
   <body>
-    <div class="Content">
+    <div>
       <h1>Number Guesser</h1>
       <h2>I'll pick a random number between </h2>
       <h2><input id="LowerBound" type="number" value=""> and <input id="UpperBound" type="number" value=""></h2>
@@ -17,12 +17,13 @@
       <h2>Your Guess: <input id="GuessValue" type="number" value=""></h2>
       <button id="GuessButton" type="button">Guess</button>
     </div>
+    <!-- Randomizer -->
     <div class="Randomizer">
-      <button id="Randomization" type="button" title="Randomizes the number each time you guess for a more significant chalange.">Randomization</button>
+      <button id="Randomization" type="button" title="Randomizes the number each time you guess for a more significant challenge.">Randomization</button>
     </div>
+    <!-- Info -->
     <div class="Info">
-      <p>Please do not set the bounds lower than Zero or higher than</p>
-      <p> 4E+31. It does some werid things...</p>
+      <p>Please do not set the bounds lower than Zero or higher than <br> 4E+31. It does some werid things...</p>
     </div>
     <div class="EventLog">
       <p>Event Log:</p>

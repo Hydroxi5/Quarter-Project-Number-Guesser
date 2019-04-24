@@ -3,13 +3,6 @@ body {
   background-image: url(../Images/Background.jpg);
   text-align: center;
 }
-#GuessButton {
-  padding: 10px 10px;
-  margin-bottom: 10px;
-}
-#Randomization {
-  padding: 10px 10px;
-}
 .EventLog {
   position: absolute;
   top: 0px;
@@ -20,7 +13,35 @@ body {
   height: 100%;
   overflow-y: scroll;
 }
+#GuessButton {
+  padding: 10px 10px;
+  margin-bottom: 10px;
+}
+#Randomization {
+  padding: 10px 10px;
+}
 #EventLog li {
   list-style: none;
   text-align: left;
+}
+#LowerBound {
+  opacity: .75;
+}
+#LowerBound:hover {
+  background-color: rgba(0, 0, 255, 0.75);
+}
+#UpperBound {
+  opacity: .75;
+}
+#UpperBound:hover {
+  background-color: rgba(255, 0, 0, 0.75);
+}
+#GuessValue {
+  opacity: .75;
+}
+#GuessValue:hover {
+  background-color: rgba(0, 255, 0, 0.75);
+}
+#GuessButton {
+  background-color: rgba(0, 255, 0, .75);
 }
