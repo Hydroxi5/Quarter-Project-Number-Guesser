@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Number Guesser</title>
+    <link rel="stylesheet" href="./Resources/CSS/style.css" type="text/css">
+  </head>
+
+  <body>
+    <div class="Content">
+      <h1>Number Guesser</h1>
+      <h2>I'll pick a random number between </h2>
+      <h2><input id="LowerBound" type="number" value=""> and <input id="UpperBound" type="number" value=""></h2>
+      <button id="SetBounds" type="button">Set Bounds</button>
+      <h2>You guess what it is!</h2>
+      <h2>Your Guess: <input id="GuessValue" type="number" value=""></h2>
+      <button id="GuessButton" type="button">Guess</button>
+    </div>
+    <div class="Randomizer">
+      <button id="Randomization" type="button" title="Randomizes the number each time you guess for a more significant chalange.">Randomization</button>
+    </div>
+    <div class="Info">
+      <p>Please do not set the bounds lower than Zero or higher than</p>
+      <p> 4E+31. It does some werid things...</p>
+    </div>
+    <div class="EventLog">
+      <p>Event Log:</p>
+      <ul id="EventLog">
+      </ul>
+    </div>
+    <script type="text/javascript" src="./Resources/JS/script.js"></script>
+  </body>
+
+</html>

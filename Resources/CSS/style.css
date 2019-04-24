@@ -1,0 +1,26 @@
+body {
+  font-family: Comic Sans MS;
+  background-image: url(../Images/Background.jpg);
+  text-align: center;
+}
+#GuessButton {
+  padding: 10px 10px;
+  margin-bottom: 10px;
+}
+#Randomization {
+  padding: 10px 10px;
+}
+.EventLog {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: Black;
+  color: White;
+  width: 300px;
+  height: 100%;
+  overflow-y: scroll;
+}
+#EventLog li {
+  list-style: none;
+  text-align: left;
+}
